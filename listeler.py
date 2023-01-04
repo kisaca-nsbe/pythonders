@@ -50,7 +50,42 @@ for i in range(1,10):
     bos_liste.append(i) #listeye eleman ekleme
 print(bos_liste)
 print('-----')
-
+listex=[10,20,30,10]
+listex.clear() #listetemizleme
+print(listex)
+print('-----')  
+liste12=[1,2,3,6,2,3]
+liste13=liste12.copy() #listekopyalama
+print(liste12)
+print(liste13)
+print('-----')
+liste14=[1,2,3,6,2,3]
+adet=liste14.count(3) #budeğerden kaç tane var
+print(adet)
+print('-----')
+liste15=[1,2,3,6,2,3]
+sira=liste15.index(3) #3 rakamı hangi sırada
+print(sira)
+print('-----')
+liste16=['N','a','l','ı']
+liste16.insert(2,'z')
+print(liste16)
+print('-----')
+liste17=['N','a','z','l','ı']
+liste17.pop() #son elemanı çıkar
+print(liste17)
+print('-----')
+liste18=['N','a','z','l','ı']
+liste18.remove('z') #z harfini sil
+print(liste18)
+print('-----')
+liste19=['N','a','z','l','ı']
+liste19.sort() #alfabetiksıralama veya bunu sayı sırası olarak da yapabilirsin
+print(liste19)
+print('-----')
+liste20=['N','a','z','l','ı']
+liste20.reverse()
+print(liste20)
 
 #ödev: isim, soyisim, tc no, doğduğu yer boş listeye değişkenle ekle
 
